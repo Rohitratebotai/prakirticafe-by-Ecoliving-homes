@@ -75,7 +75,7 @@ const Footer: React.FC = () => {
 
         {/* Divider */}
         <div className="border-t border-gray-300 mt-8 pt-4 text-center text-xs text-gray-500">
-          © 2025 All rights reserved by{" "}
+          © {new Date().getFullYear()} All rights reserved by{" "}
           <a
             href="https://ratebotai.com"
             target="_blank"
