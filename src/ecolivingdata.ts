@@ -29,7 +29,7 @@ import ecoprakritiecostays from './assets/eco farms & community living/Hoopinkai
 
 //////////////////////  Heritage legacy //////////////////////
 
-import heritagebrahamaHavelli from './assets/heritage legacy/Brahama Havelli,HL0001,PUSHKAR/caption.jpg'
+import heritagebrahamaHavelli from './assets/HERITAGE LEGACY/Brahama Havelli,HL0001,PUSHKAR/caption.jpg'
 
 import heritagecocoShambhala from './assets/HERITAGE LEGACY/Coco shambhala,BHOGWE,HL0008,GOA/Welcome-to-Paradise.jpg'
 
