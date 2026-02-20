@@ -1,6 +1,6 @@
 import React, { useState } from 'react';
 import { FaBars, FaTimes } from 'react-icons/fa';
-import logo from '../assets/logo.png'
+import logo from '../assets/logo.jpeg'
 import { Link } from 'react-router-dom';
 const Header: React.FC = () => {
   const [isOpen, setIsOpen] = useState(false);
@@ -38,14 +38,14 @@ const Header: React.FC = () => {
         {/* Center Logo */}
         <div className="flex items-center justify-center mx-12">
           <Link to="/" className="flex items-center">
-            <img src={logo} alt="Ecoliving Homes" className="h-12 w-auto" />
+            <img src={logo} alt="Ecoliving Homes" className="h-20 w-auto" />
           </Link>
         </div>
 
         {/* Right Navigation */}
         <nav className="flex items-center space-x-8 ml-12">
-          <a href="sunshine" className="text-sm font-semibold tracking-widest hover:text-gray-600 transition">
-            SUNSHINE CLUB
+          <a href="one-earth-tribe" className="text-sm font-semibold tracking-widest hover:text-gray-600 transition">
+            One Earth Tribe
           </a>
           <a href="offers" className="text-sm font-semibold tracking-widest hover:text-gray-600 transition">
             OFFERS
